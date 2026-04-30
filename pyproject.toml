@@ -1,0 +1,25 @@
+[project]
+name = "secure-random-password-generator"
+version = "1.0.0"
+description = "Local encrypted desktop password generator"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+  "cryptography>=41",
+]
+authors = [
+  { name = "make-77" },
+]
+keywords = ["password", "security", "tkinter", "desktop", "cryptography"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Environment :: Win32 (MS Windows)",
+  "Environment :: X11 Applications",
+  "Intended Audience :: End Users/Desktop",
+  "Programming Language :: Python :: 3",
+  "Topic :: Security",
+  "Topic :: Utilities",
+]
+
+[project.scripts]
+secure-random-password-generator = "secure_random_password_generator.__main__:main"

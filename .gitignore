@@ -1,0 +1,32 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments and local dependency installs
+.venv/
+venv/
+env/
+.build_deps/
+
+# Build outputs
+build/
+dist/
+*.spec
+*.egg-info/
+
+# Local encrypted application data
+storage/
+
+# PyInstaller runtime extraction leftovers
+_MEI*/
+
+# Local editor and OS metadata
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
